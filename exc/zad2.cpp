@@ -31,7 +31,6 @@ int main(){
                     else{
                          sum2=accumulate(elements[i].begin()+j+1,elements[i].end(),0);
                          }
-                    cout<<sum1<<"\t"<<sum2<<endl;
                     if(sum1==sum2){
                                    does_exist.pop_back();
                                    does_exist.push_back(true);
